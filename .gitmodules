@@ -1,0 +1,3 @@
+[submodule "trainers/OpenKE"]
+	path = trainers/OpenKE
+	url = https://github.com/hschoi4/OpenKE.git
