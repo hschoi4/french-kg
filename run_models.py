@@ -14,9 +14,9 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
 
-    trainers.transe.run(args.inpath)
-    trainers.transh.run(args.inpath)
-    trainers.transd.run(args.inpath)
-    trainers.distmult.run(args.inpath)
-    trainers.complex.run(args.inpath)
-    trainers.rotate.run(args.inpath)
+    trainers.transe.run(args.dataset)
+    trainers.transh.run(args.dataset)
+    trainers.transd.run(args.dataset)
+    trainers.distmult.run(args.dataset)
+    trainers.complex.run(args.dataset)
+    trainers.rotate.run(args.dataset)
