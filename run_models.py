@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import sys
-sys.path.append("/home/hchoi/Nextcloud/link-prediction/src/trainers/OpenKE")
+sys.path.append("/home/hchoi/Nextcloud/fr-link-prediction/french-kg/trainers/OpenKE")
 
 import argparse
 import trainers
