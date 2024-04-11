@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import sys
-sys.path.append("/home/hchoi/Nextcloud/fr-link-prediction/french-kg/trainers/OpenKE")
+sys.path.append("./french-kg/trainers/OpenKE")
 
 import argparse
 import trainers
@@ -13,10 +13,11 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
+    path = f"data/{args.dataset}/openke/"
 
-    trainers.transe.run(args.dataset)
-    trainers.transh.run(args.dataset)
-    trainers.transd.run(args.dataset)
-    trainers.distmult.run(args.dataset)
-    trainers.complex.run(args.dataset)
-    trainers.rotate.run(args.dataset)
+    trainers.transe.run(path)
+    trainers.transh.run(path)
+    trainers.transd.run(path)
+    trainers.distmult.run(path)
+    trainers.complex.run(path)
+    trainers.rotate.run(path)
